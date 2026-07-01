@@ -69,7 +69,8 @@ std::string encode(std::vector<std::string>& strs) {
 }
 
 std::vector<std::string> decode(std::string s) {
-    std::vector<std::string> res;
+    std::vector<std::string> res;  // * -> "5#hello5#world"
+
     int i = 0;
 
     while (i < s.length()) {
