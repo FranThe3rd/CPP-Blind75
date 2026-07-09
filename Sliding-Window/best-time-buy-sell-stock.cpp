@@ -10,6 +10,12 @@
  * Example 1:
  * Input: prices = [10,1,5,6,7,1]
  * Output: 6
+ *
+ * So first thing we do we initialize left to 0 and right to one, and we have a variable to keep track
+ * of max profit. We also iterate through the prices array with a while loop until r is at the end of the loop.
+ * If the prices on left side smaller than right, thats good we have a profit so we calculate it. If we don't then
+ * we set left to the right spot, and right will continue moving on. We return max proft in the end
+ *
  */
 
 
