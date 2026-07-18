@@ -24,7 +24,6 @@ public:
         dfs(root, res);
         return res;
     }
-
 private:
     int dfs(TreeNode* root, int& res) {
         if (!root) {
